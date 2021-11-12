@@ -20,4 +20,4 @@ button.addEventListener('click', async ()=>{
     await videoElement.requestPictureInPicture();
     button.disabled = false;
 })
-selectStream()
+selectStream();
